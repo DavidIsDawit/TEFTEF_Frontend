@@ -1,31 +1,472 @@
-.App {
-  text-align: center;
+.app_cont{
+  display:flex;
+  flex-direction:column;
+  height:400vh;
+  background-color: #000000;
+  
+}
+.names{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+  display :flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center; 
+  
+  height:90vh;
+  background-size: cover;
+  background-image: url(./Assests/images/backgroundpic.png);
+
+}
+.flexcontainer {
+   display: flex ;
+   justify-content:space-between ;
+   background-Color :#000000;
+   height:100px;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .writing{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  position:fixed;
+  margin-top:0% ;
+} */
+.useraccount{
+  display:flex;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.home{
+  font-size: 45px;
+  justify-items: center;
+  color:#8E8109;
+  font-family: 'Irish-Grover';
+  text-decoration:none;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:flex-end;
+  width:110vh; 
+  height:69vh; 
+  align-self: flex-end;
+  /* border-color: green;
+  border-style:solid; */
+    
+}
+.links button{
+  font-size: 35px;
+  font-family:'Miltonian Tatoo';
+  font-weight: bold;
+  padding: 15px 30px;
+  background-color: #8E8109; 
+  border-radius:24%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.writing{
+  /* left: 500px;
+  top: 100px; */
+  font-family: 'Miltonian Tatoo';
+  font-size:55px;
+  /* margin-top:0% ; */
+  
+  /* align-content: center; */
+  /* position:absolute; */
+}
+.acclog{
+  
   align-items: center;
+  font-size: 27px;
+  margin-right: 40px;
+  background-color:#8E8109;
+  
+}
+.accsign{
+  
+  align-items: center;
+  font-size: 27px; 
+  margin-right: 40px;
+  background-color:#8E8109;
+}
+
+.language{
+  font-size: 25px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 10px;
+  color:#8E8109;
+
+}
+.JobsSection{
+  display:flex;
+  flex-direction: column;
+   height:80vh;
+   /* border-color:#2ca507;
+   border-style: solid;  */
+}
+.Fcont{
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height:70vh;
+   /* border-color:#a50736;
+   border-style: solid;  */
+}
+.Job_header{
+  display:flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items:center;
+  color: white;
+  /* height: 100px; */
+  /* background-color: #8E8109; */
+  padding-top: 40px;
+}
+.Freelancer_header{
+  display:flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex-direction:column;
+  align-items:center;
+  justify-content: flex-end;
+  color: white;
+  /* background-color: #61dafb; */
+  /* height:200px; */
+}
+
+.JobsSectionimgs{
+  display:flex;
+  flex-direction:row;
+  /* justify-content:space-between; */
+  /*background-color: yellow;*/
+  height:450px;
+  padding-bottom: 10px;
+  
+}
+.FreelancersSection{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+  /* background-color: #61dafb; */
+  height:450px;
+ }
+ .freepic{
+  height: 200px;
+  padding-bottom: 50px;
+  width:175px;
+  /* padding-left: 65px;
+  padding-right:45px; */
+ }
+.jobpic{
+  height: 300px;
+  width:250px;
+  /* padding-top: 50px;
+  padding-left: 25px;
+  padding-right:25px; */
+}
+.jopdesccont{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  /* background-color: #61dafb; */
+  padding-left: 25px;
+  padding-right:50px; 
+
+}
+
+.nametag{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:22px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.freenamestarandprofession{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  /* background-color: #61dafb; */
+  padding-left: 45px;
+  padding-right:100px; 
+  height:350px;
+  
+}
+.namestar{
+  display:flex;
+  width:120px;
+  justify-content: space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:larger;
+  align-items: center;
+  color: white;
+}
+.freenametag{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:22px;
+  font-weight:bold;
+  color: white;
+}
+.JobsAndFreelancers{
+ 
+  height:100vh;
+  
+}
+.Testimonials_cont{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  height:50vh;
+  /* border-color:#a50736;
+   border-style: solid;  */
+}
+.Testimonials_header{
+  display:flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items:center;
+  height: 80px; 
+  color: white;
+  /* background-color: #8E8109; */
+}
+.TestImgandParagraph{
+  display:flex;
+  flex-direction:row;
+  
+}
+.TestPic{
+  height: 175px;
+  width:  175px;
+  padding-left: 30px; 
+  
+}
+.eachtestimgparg{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding-left: 25px;
+  
+}
+.testpar{
+  display:flex;
+  justify-content: center;
+  text-indent:1em;
+  /* border-color:#2ca507;
+  border-style: solid; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: large;
+  width: 350px;
+  color: white;
+}
+.JandF{
+  display:flex;
+  flex-direction: column;
+  /* border-color: blue;
+  border-style: solid;  */
+    /* justify-content: space-between; */
+}
+.howitworksCont{
+  display:flex;
+  flex-direction: column;
+  /* border-color: blue;
+  border-style: solid;  */
+  height:60vh;
+}
+.howitworksCont_header{
+  display:flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex-direction:column;
+  align-items: center;
+  color: white;
+  /* border-color: blue;
+  border-style: solid;  */
+  
+}
+.linkandinstrunction{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+
+}
+.howitworkslink{
+  display:flex;
+  flex-direction:column;
+  padding-left: 50px;  
+  justify-content: space-between;
+  align-items: center;
+    
+}
+.howitworkslink button{
+  
+  font-size: 20px;
+  font-family:'Miltonian Tatoo';
+  font-weight: bold;
+  padding: 15px 30px;
+  background-color: #8E8109; 
+  border-radius:24%;
+}
+
+.instruction {
+  display:flex;
+  padding-top: 20px;
+  flex-direction:column;
+  justify-content: space-between;
+  font-size: 25px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  /* border-color:green;
+  border-style:solid; */
+  margin-bottom:10px;
+
+}
+
+.footer_cont{
+  display:flex;
+  flex-direction:column;
+   /* justify-content: space-between; */
+  /* border-color:green; */
+  /* border-style:solid; */
+  height: 25vh;
+}
+.PlcandSocials{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding-left:20px;
+  padding-right:20px;
+  align-items: center;
+}
+
+.TefTefplc{
+  width:220px;
+  height: 170px;
+  font-size:20px;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  border-color: white;
+  background-color: white;
+}
+
+.TiktokButton {
+  width:150px;
+  height: 50px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#8E8109;
+  border-color: white;
+  background-color: white;
+}
+.FBButton {
+  width:150px;
+  height: 50px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#8E8109;
+  border-color: white;
+  background-color: white;
+}
+.TwitterButton {
+  width:150px;
+  height: 50px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#8E8109;
+  border-color: white;
+  background-color: white;
+}
+.callforaction {
+  width:870px;
+  height: 60px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-color: #8E8109;
+  background-color: #8E8109;
+  color:white;
+  border-radius:24%;
+}
+.callforactioncont{
+  display:flex;
+  justify-content: center;
+  
+}
+
+.logincont{
+  color: white;
+}
+.acc{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  height:100vh;
+  
+
+}
+.signupcont{
+  color: white;
+}
+.firstandlastname{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border-color: blue;
+  border-style:solid; */
+  width: 350px;
+}
+ #firstname {
+  width: 100px;
+}
+#lastname {
+  width: 100px;
+} 
+.usernameandpassword{
+  display:flex;  
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  height: 55px;
+  /* border-color: blue;
+  border-style:solid; */
+  width: 350px;
+}
+.loggoogleandfacebookaccount{
+  display:flex;
+  flex-direction: column;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  justify-content: space-between;
+  /* justify-content: space-between; */
+  height: 75px;
+  /* border-color: blue;
+  border-style:solid; */
+  width: 350px; 
+  
+}
+.googleaccbutton{
+  width:350px;
+  height: 30px;
+  background-color: #8E8109;
+}
+.facebookaccbutton{
+  width:350px;
+  height: 30px;
+  background-color: #8E8109;
+
+}
+.agreement{
+  display:flex;
+  width:350px;
 }
 
 @keyframes App-logo-spin {
