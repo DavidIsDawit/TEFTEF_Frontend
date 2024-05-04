@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/TEFTEF_Frontend/static/css/main.ccadd4d1.css",
+    "main.js": "/TEFTEF_Frontend/static/js/main.cfab04c6.js",
+    "static/js/453.a6a97343.chunk.js": "/TEFTEF_Frontend/static/js/453.a6a97343.chunk.js",
+    "static/media/programmingg.png": "/TEFTEF_Frontend/static/media/programmingg.019967500abdbe86418b.png",
+    "static/media/designer.png": "/TEFTEF_Frontend/static/media/designer.584715c451dcd8b8846e.png",
+    "static/media/content_writer.png": "/TEFTEF_Frontend/static/media/content_writer.71881e177a6bd05808c6.png",
+    "static/media/backgroundpic.png": "/TEFTEF_Frontend/static/media/backgroundpic.2dadba5938bd744caa10.png",
+    "static/media/wes-modified.png": "/TEFTEF_Frontend/static/media/wes-modified.7c23e4334c7f3d32c0fe.png",
+    "static/media/digital_marketer.png": "/TEFTEF_Frontend/static/media/digital_marketer.f62a985e383c5387fadd.png",
+    "static/media/dave-modified.png": "/TEFTEF_Frontend/static/media/dave-modified.1d2a6b8c462e609dff5e.png",
+    "static/media/ermi-modified.png": "/TEFTEF_Frontend/static/media/ermi-modified.79342e8f5f2f8ccdd8c0.png",
+    "static/media/abu2-modified.png": "/TEFTEF_Frontend/static/media/abu2-modified.e8aba40fc6333c307dc9.png",
+    "index.html": "/TEFTEF_Frontend/index.html",
+    "main.ccadd4d1.css.map": "/TEFTEF_Frontend/static/css/main.ccadd4d1.css.map",
+    "main.cfab04c6.js.map": "/TEFTEF_Frontend/static/js/main.cfab04c6.js.map",
+    "453.a6a97343.chunk.js.map": "/TEFTEF_Frontend/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccadd4d1.css",
+    "static/js/main.cfab04c6.js"
+  ]
+}
