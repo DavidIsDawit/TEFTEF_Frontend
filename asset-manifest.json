@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TEFTEF_Frontend/static/css/main.ccadd4d1.css",
-    "main.js": "/TEFTEF_Frontend/static/js/main.cfab04c6.js",
+    "main.js": "/TEFTEF_Frontend/static/js/main.405b77b0.js",
     "static/js/453.a6a97343.chunk.js": "/TEFTEF_Frontend/static/js/453.a6a97343.chunk.js",
     "static/media/programmingg.png": "/TEFTEF_Frontend/static/media/programmingg.019967500abdbe86418b.png",
     "static/media/designer.png": "/TEFTEF_Frontend/static/media/designer.584715c451dcd8b8846e.png",
@@ -14,11 +14,11 @@
     "static/media/abu2-modified.png": "/TEFTEF_Frontend/static/media/abu2-modified.e8aba40fc6333c307dc9.png",
     "index.html": "/TEFTEF_Frontend/index.html",
     "main.ccadd4d1.css.map": "/TEFTEF_Frontend/static/css/main.ccadd4d1.css.map",
-    "main.cfab04c6.js.map": "/TEFTEF_Frontend/static/js/main.cfab04c6.js.map",
+    "main.405b77b0.js.map": "/TEFTEF_Frontend/static/js/main.405b77b0.js.map",
     "453.a6a97343.chunk.js.map": "/TEFTEF_Frontend/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccadd4d1.css",
-    "static/js/main.cfab04c6.js"
+    "static/js/main.405b77b0.js"
   ]
 }
