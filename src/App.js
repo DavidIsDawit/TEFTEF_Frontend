@@ -25,23 +25,13 @@ function App() {
         <Route path="/Freelancers" element={<Freelancers/>}></Route>
         <Route path="/FindJob" element={<Jobs/>}></Route>
       </Routes>
-      
-      {/* dont forget to see the video about scrolling ..
-      //
-      //
-      //
-      //
-      //
-      / /     
-      */}
-
-      {/* <JobsAndFreelancer> */}
+                
       <div className='JandF'>
       <Jobs/>
       <Freelancers/>
       </div>
-        
-      {/* </JobsAndFreelancer> */}
+       
+      
       <Testimonials/>     
       <HowItWorks/> 
       <Footer/>
